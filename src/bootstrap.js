@@ -13,7 +13,7 @@ import 'EditorWidgets';
 import 'MarkdownPlugins';
 import './index.css';
 
-const ROOT_ID = 'nc-root';
+export const ROOT_ID = 'nc-root';
 
 function bootstrap(opts = {}) {
   const { config } = opts;
@@ -79,16 +79,7 @@ function bootstrap(opts = {}) {
   /**
    * Render application root.
    */
-<<<<<<< HEAD
   render(<Root />, getRoot());
-=======
-  render(<Root />, el);
-
-  /**
-   * Return true to indicate bootstrap success to caller.
-   */
-  return true;
->>>>>>> 9bb1a81e... ensure that application is only initialized once
 }
 
 export default bootstrap;
