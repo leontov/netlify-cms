@@ -13,7 +13,7 @@ import 'EditorWidgets';
 import 'MarkdownPlugins';
 import './index.css';
 
-export const ROOT_ID = 'nc-root';
+const ROOT_ID = 'nc-root';
 
 function bootstrap(opts = {}) {
   const { config } = opts;

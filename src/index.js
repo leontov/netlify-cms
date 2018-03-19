@@ -1,5 +1,5 @@
 import React from 'react';
-import bootstrap, { ROOT_ID } from './bootstrap';
+import bootstrap from './bootstrap';
 import registry from 'Lib/registry';
 import createReactClass from 'create-react-class';
 
