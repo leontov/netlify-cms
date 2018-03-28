@@ -22,7 +22,7 @@ export default class DateControl extends React.Component {
 
   constructor(props) {
     super(props);
-    const { field, includeTime } = props;
+    const { field, includeTime } = this.props;
     this.format = field.get('format') || (includeTime ? DEFAULT_DATETIME_FORMAT : DEFAULT_DATE_FORMAT);
   }
 
